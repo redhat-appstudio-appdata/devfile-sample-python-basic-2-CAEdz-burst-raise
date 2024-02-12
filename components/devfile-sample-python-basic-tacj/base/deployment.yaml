@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-tacj
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-user-workloads/jpaulovi-tenant/devfile-sample-python-basic-2/devfile-sample-python-basic-tacj@sha256:eb0458510b37736a53edb832c93fa0caba770bc8f880c67a4630360c6325df5c
         name: my-python
         ports:
         - containerPort: 8081
